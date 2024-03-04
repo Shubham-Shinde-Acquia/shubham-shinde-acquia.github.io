@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Heading</h1>
+<div data-slot="dwc" data-param-slot-name="TestDynamicContent">
+  <h1>Dynamic web content for myslot</h1>
+</div>
+<p>My first paragraph.</p>
+
+
+<script>
+    (function(w,d,t,u,n,a,m){w['MauticTrackingObject']=n;
+        w[n]=w[n]||function(){(w[n].q=w[n].q||[]).push(arguments)},a=d.createElement(t),
+        m=d.getElementsByTagName(t)[0];a.async=1;a.src=u;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://mautic-community.test/mtc.js','mt');
+
+    mt('send', 'pageview');
+</script>
+</body>
+</html>
